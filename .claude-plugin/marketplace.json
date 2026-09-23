@@ -1,0 +1,15 @@
+{
+  "name": "langfuse-observability",
+  "description": "EvalFlow observability plugin for Claude Code — captures and exports traces, spans, and session telemetry from Claude Code to EvalFlow via the Langfuse-compatible observability protocol for LLM monitoring, debugging, and evaluation",
+  "owner": {
+    "name": "Langfuse",
+    "url": "https://langfuse.com"
+  },
+  "plugins": [
+    {
+      "name": "langfuse-observability",
+      "source": "./",
+      "description": "Instruments Claude Code sessions with OpenTelemetry-compatible tracing and sends trace data to EvalFlow (Langfuse-compatible), enabling visibility into model calls, token usage, latency, and agent execution flow"
+    }
+  ]
+}
